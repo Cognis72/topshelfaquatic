@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopShelf Aquatic | ร้านปลาบอลลูนสุดพรีเมียม</title>
+    <meta name="description" content="จำหน่ายปลาบอลลูนคู่สวย เริ่มต้น 550 บาท ติดต่อผ่านไลน์ จัดส่งถึงบ้าน หรือชมที่ร้านได้">
+    <meta property="og:image" content="images/topshelf-logo.jpg">
+    <meta property="og:title" content="TopShelf Aquatic | ร้านปลาบอลลูน">
+    <meta property="og:description" content="ขายปลาบอลลูนคัดเกรด เริ่มต้น 550 บาท ติดต่อผ่าน LINE @834wrclo">
+    <meta property="og:url" content="https://example.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/topshelf-logo.jpg">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Thai-friendly fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css?v=2025070501">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-fish"></i>
+                    <span>TopShelf Aquatic</span>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active">หน้าแรก</a>
+                    <a href="#about" class="nav-link">เกี่ยวกับร้าน</a>
+                    <a href="#how-to-order" class="nav-link">วิธีการสั่งซื้อ</a>
+                    <a href="#contact" class="nav-link">ติดต่อเรา</a>
+                </nav>
+                
+
+                
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">TopShelf Aquatic</h1>
+                <p class="hero-subtitle">ร้านปลาบอลลูนสุดพรีเมียม</p>
+                <p class="hero-description">จำหน่ายปลาบอลลูนคัดเกรดคุณภาพสูง ราคาเริ่มต้น 550 บาท</p>
+                <a href="#fish-gallery" class="cta-button">
+                    <i class="fas fa-fish"></i>
+                    ดูปลาของเรา
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Fish Gallery Section -->
+    <section class="fish-section">
+        <div class="container">
+            <h2 class="section-title">ปลาบอลลูนของเรา</h2>
+            <p class="section-subtitle">คัดเกรดแล้ว พร้อมจัดส่งถึงบ้าน</p>
+            
+            <div class="loading" id="loading">
+                <i class="fas fa-spinner fa-spin"></i>
+                <span>กำลังโหลดข้อมูลปลา...</span>
+            </div>
+            
+            <div class="fish-gallery" id="fish-gallery">
+                <!-- Fish cards will be generated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">เกี่ยวกับร้าน TopShelf Aquatic</h2>
+                    <p>เราเป็นผู้เชี่ยวชาญด้านปลาบอลลูนมากว่า 10 ปี มุ่งมั่นในการคัดเลือกปลาบอลลูนคุณภาพสูงเพื่อลูกค้าทุกท่าน</p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h3>คุณภาพสูง</h3>
+                                <p>คัดเลือกปลาบอลลูนเกรดเอ มีใบรับรองคุณภาพ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h3>จัดส่งถึงบ้าน</h3>
+                                <p>บริการจัดส่งทั่วประเทศไทย รับประกันปลาปลอดภัย</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-headset"></i>
+                            <div>
+                                <h3>บริการหลังการขาย</h3>
+                                <p>ให้คำปรึกษาการเลี้ยงดู ดูแลลูกค้าตลอดไป</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order Section -->
+    <section id="how-to-order" class="order-section">
+        <div class="container">
+            <h2 class="section-title">วิธีการสั่งซื้อ</h2>
+            <p class="section-subtitle">ง่ายเพียง 4 ขั้นตอน</p>
+            
+            <div class="order-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>เลือกปลา</h3>
+                        <p>เลือกปลาบอลลูนที่ต้องการจากแกลเลอรี่ของเรา</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>ติดต่อ LINE</h3>
+                        <p>กดปุ่ม "สอบถามผ่าน LINE" หรือแอด @834wrclo</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>ยืนยันคำสั่งซื้อ</h3>
+                        <p>ส่งรูปปลาที่ต้องการ รอการยืนยันราคาและการชำระเงิน</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>รับปลาที่บ้าน</h3>
+                        <p>เราจัดส่งปลาถึงบ้านอย่างปลอดภัย พร้อมคำแนะนำการเลี้ยงดู</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">ติดต่อเรา</h2>
+            <p class="section-subtitle">พร้อมให้คำปรึกษาทุกเรื่องเกี่ยวกับปลาบอลลูน</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-line"></i>
+                        <div>
+                            <h3>LINE Official Account</h3>
+                            <p>@834wrclo</p>
+                            <a href="https://line.me/ti/p/@834wrclo" target="_blank" class="line-button">
+                                <i class="fab fa-line"></i>
+                                เพิ่มเพื่อน LINE
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>เวลาทำการ</h3>
+                            <p>จันทร์ - อาทิตย์<br>09:00 - 18:00 น.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-shipping-fast"></i>
+                        <div>
+                            <h3>การจัดส่ง</h3>
+                            <p>จัดส่งทั่วประเทศไทย<br>รับประกันปลาปลอดภัย</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- QR Code Section -->
+                <div class="qr-section">
+                    <div class="qr-code">
+                        <h4>สแกน QR Code เพื่อแอด LINE</h4>
+                        <img src="images/line-qr.png" alt="LINE QR Code @834wrclo" class="qr-image">
+                        <p>@834wrclo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Map -->
+            <div class="map-section">
+                <h3>แผนที่ร้าน</h3>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.5364573524!2d100.53661665676754!3d13.739808498684327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29920f94da4cf%3A0x7a8c5c5c5c5c5c5c!2z4LiX4Lix4LiH4LmA4Lil4Li34LiZ4LmI4LiI4Liy4LiH4LmA4LiE4Lij4Li34LmI4Lit4LiH!5e0!3m2!1sth!2sth!4v1625473200000!5m2!1sth!2sth"
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="map-link">
+                        <a href="https://maps.app.goo.gl/r8JauPjKtKH7wbbk9?g_st=ic" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="map-button">
+                            <i class="fas fa-map-marker-alt"></i>
+                            เปิดใน Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-fish"></i>
+                    <span>TopShelf Aquatic</span>
+                </div>
+                <p>ร้านปลาบอลลูนสุดพรีเมียม คุณภาพสูง ราคาดี</p>
+                <div class="social-links">
+                    <a href="https://line.me/ti/p/@834wrclo" target="_blank">
+                        <i class="fab fa-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TopShelf Aquatic. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal" onclick="closeVideo()">
+        <div class="video-modal-content" onclick="event.stopPropagation()">
+            <div class="video-header">
+                <button class="back-button" onclick="closeVideo()">
+                    <i class="fas fa-arrow-left"></i>
+                    กลับ
+                </button>
+            </div>
+            <div class="video-player">
+                <div id="videoLoading" class="video-loading" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>กำลังโหลดวิดีโอ...</p>
+                </div>
+                <video id="videoPlayer" controls preload="metadata" playsinline webkit-playsinline>
+                    <source src="" type="video/mp4">
+                    เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+                </video>
+                <!-- Video overlay controls -->
+                <div class="video-overlay-controls">
+                    <button class="video-overlay-back" onclick="closeVideo()">
+                        <i class="fas fa-arrow-left"></i> กลับ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js?v=2025070501"></script>
+</body>
+</html>
