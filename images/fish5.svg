@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="fishGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CD5C5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="#F0F8FF"/>
+  <ellipse cx="200" cy="125" rx="140" ry="90" fill="url(#fishGrad5)" stroke="#8B4513" stroke-width="2"/>
+  <ellipse cx="240" cy="105" rx="15" ry="10" fill="#2C3E50"/>
+  <ellipse cx="245" cy="102" rx="5" ry="3" fill="white"/>
+  <path d="M 60 125 Q 30 100 20 125 Q 30 150 60 125" fill="#CD5C5C" stroke="#8B4513" stroke-width="1"/>
+  <path d="M 200 50 Q 230 30 260 50 Q 230 70 200 50" fill="#CD5C5C" stroke="#8B4513" stroke-width="1"/>
+  <path d="M 200 200 Q 230 180 260 200 Q 230 220 200 200" fill="#CD5C5C" stroke="#8B4513" stroke-width="1"/>
+  <text x="200" y="270" text-anchor="middle" font-family="Prompt" font-size="14" fill="#2C3E50">ปลาบอลลูนสีแดงอิฐ</text>
+</svg>

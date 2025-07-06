@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="fishGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC0CB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="#F0F8FF"/>
+  <ellipse cx="200" cy="125" rx="125" ry="85" fill="url(#fishGrad6)" stroke="#FF69B4" stroke-width="2"/>
+  <ellipse cx="240" cy="105" rx="15" ry="10" fill="#2C3E50"/>
+  <ellipse cx="245" cy="102" rx="5" ry="3" fill="white"/>
+  <path d="M 75 125 Q 45 100 35 125 Q 45 150 75 125" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1"/>
+  <path d="M 200 55 Q 225 35 250 55 Q 225 75 200 55" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1"/>
+  <path d="M 200 195 Q 225 175 250 195 Q 225 215 200 195" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1"/>
+  <circle cx="170" cy="110" r="5" fill="#FF1493" opacity="0.7"/>
+  <circle cx="190" cy="140" r="4" fill="#FF69B4" opacity="0.8"/>
+  <text x="200" y="270" text-anchor="middle" font-family="Prompt" font-size="14" fill="#2C3E50">ปลาบอลลูนสีชมพูอ่อน</text>
+</svg>
